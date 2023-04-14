@@ -4,6 +4,7 @@ export default (theme) => ({
     alignItems: 'center',
     justifyContent: 'center',
     backgroundColor: theme.colors.background,
+    
   },
   title: {
     fontSize: 20,
