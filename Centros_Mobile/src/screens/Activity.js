@@ -9,9 +9,9 @@ export default function Activity() {
 
   
     return (
-        <View
-        >
-            <Fund/>
+        <View>
+            
+        <Fund/>
         </View>
     );
 }

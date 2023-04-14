@@ -3,7 +3,7 @@ export default (theme) => ({
     flex: 1,
     alignItems: 'center',
     justifyContent: 'center',
-    backgroundColor: theme.colors.background,
+    with: 'auto',
     
   },
   title: {
