@@ -9,8 +9,8 @@ export default function Activity() {
 
   
     return (
-        <View>
-            
+        <View >
+
         <Fund/>
         </View>
     );
