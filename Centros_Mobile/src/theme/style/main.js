@@ -1,27 +1,45 @@
 export default (theme) => ({
-    //choque de 2 colores de fondo a 45 grados
-    container: {
-        flex: 1,
-        alignItems: 'center',
-        justifyContent: 'center',
-        backgroundColor: 'linear-gradient(45deg, #FE6B8B 30%, #FF8E53 90%)',
-    },
- 
-    fond: {
-        flex: 1,
-        width: '100%',
-        height: '100%',
-        alignItems: 'center',
-        justifyContent: 'center',
-
-       
-    },
-
-
     
+  gradient: {
+    borderRadius: 10,
+    padding: 10,
+    alignItems: 'center',
+    marginVertical: 10,
+    marginHorizontal: 10,
+    elevation: 4,
+
+  },
     title: {
+        marginLeft: 15,
+        marginTop: 15,
         fontSize: 20,
         fontWeight: 'bold',
-        color: theme.colors.text,
+        color: 'black',
+        
     },
+    searchbar: {
+        margin: 5,
+        borderRadius: 20,
+        backgroundColor: '#fffff999',
+        elevation: 1,
+        borderColor: '#000000',
+    },
+    container: {
+        backgroundColor: 'transparent',
+        alignItems: 'center',
+        justifyContent: 'center',
+        padding: 5,
+        width: 'auto',
+        height: '47%',
+        overflow: 'hidden',
+    },
+    containercont: {
+        backgroundColor: 'transparent',
+        padding: 5,
+        overflow: 'hidden',
+        bottom: '100%',
+        left: '0%',
+        marginTop: '-17%',
+    },
+
 });
