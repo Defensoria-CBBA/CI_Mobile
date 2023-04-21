@@ -26,20 +26,32 @@ export default (theme) => ({
     },
     container: {
         backgroundColor: 'transparent',
-        alignItems: 'center',
-        justifyContent: 'center',
         padding: 5,
-        width: 'auto',
-        height: '47%',
         overflow: 'hidden',
+        marginLeft: -50,
     },
     containercont: {
         backgroundColor: 'transparent',
         padding: 5,
         overflow: 'hidden',
-        bottom: '100%',
         left: '0%',
-        marginTop: '-17%',
+
     },
+    containerButton: {
+        flex: 1,	
+        backgroundColor: 'transparent',
+        padding: 5,
+        width: 'auto',
+        height: 'auto',
+        top: '-1%',
+    },
+   
+
+    scroll: {
+        backgroundColor: 'transparent',
+        padding: 5,
+        height: '100%',
+    },
+
 
 });

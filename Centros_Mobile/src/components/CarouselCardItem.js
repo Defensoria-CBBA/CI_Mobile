@@ -48,7 +48,7 @@ const styles = StyleSheet.create({
   },
   image: {
     width: ITEM_WIDTH,
-    height: 200,
+    height: ITEM_WIDTH,
     resizeMode: 'cover',
   },
   header: {
