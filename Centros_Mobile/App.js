@@ -13,7 +13,7 @@ export default function App() {
   
   return (
    
-      <NavigationContainer>
+      <NavigationContainer >
         <Drawer.Navigator initialRouteName="Menu">
           <Drawer.Screen name="Menu" component={Main} />
           <Drawer.Screen name="Activity" component={Activity} />
