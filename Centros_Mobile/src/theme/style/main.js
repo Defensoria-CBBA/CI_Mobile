@@ -17,13 +17,7 @@ export default (theme) => ({
         color: 'black',
         
     },
-    searchbar: {
-        margin: 5,
-        borderRadius: 20,
-        backgroundColor: '#fffff999',
-        elevation: 1,
-        borderColor: '#000000',
-    },
+   
     container: {
         backgroundColor: 'transparent',
         padding: 5,
@@ -37,16 +31,6 @@ export default (theme) => ({
         left: '0%',
 
     },
-    containerButton: {
-        flex: 1,	
-        backgroundColor: 'transparent',
-        padding: 5,
-        width: 'auto',
-        height: 'auto',
-        top: '-1%',
-    },
-   
-
     scroll: {
         backgroundColor: 'transparent',
         padding: 5,
