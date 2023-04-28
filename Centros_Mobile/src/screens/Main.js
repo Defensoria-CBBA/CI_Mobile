@@ -37,14 +37,18 @@ export default function Main() {
                     <View style={styles.containercont}>
                         <Text style={styles.title}>Localidad Zonas </Text>
                     </View>
-                    <ButtonLocations />
+                        <ButtonLocations />
+                    
                     
                 </View>
                 <View>
                     <View style={styles.containercont}>
                         <Text style={styles.title}>Institucion </Text>
                     </View>
-                    <ButtonInstitution />
+                    <View>
+                        <ButtonInstitution />
+                    </View>
+                    
                     
                 </View>
                 

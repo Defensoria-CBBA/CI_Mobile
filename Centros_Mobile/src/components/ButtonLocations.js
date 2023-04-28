@@ -5,6 +5,7 @@ import Button from "./Button";
 
 const ButtonLocations = () => {
    return (
+    
        <View style={{ flex: 1, flexDirection: 'row', }}>
            <View style={styles.containerButton}>
                <Button icon="map" text="norte" onPress={() => console.log('hola')} />
