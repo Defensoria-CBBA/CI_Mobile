@@ -7,7 +7,7 @@ import Menu from '../components/Menu';
 
 // Logo....
 
-import Logo from '../components/logo.png';
+import Logo from '../../assets/logo.png';
 const BGColor = "#E6C6F1"
 
 

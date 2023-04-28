@@ -8,11 +8,17 @@ import Location from '../screens/Location';
 
 const Drawer = createDrawerNavigator();
 
+
 export default function MenuApp() {
 
     return (
-        <NavigationContainer >
-          <Drawer.Navigator initialRouteName="Menu">
+        <NavigationContainer>
+          <Drawer.Navigator screenOptions={{
+            drawerStyle: {
+              backgroundColor: '#c6cbef',
+              width: 240,
+            },
+          }} initialRouteName="Menu" >
             <Drawer.Screen name="Menu" component={Main} />
             <Drawer.Screen name="Activity" component={Activity} />
             <Drawer.Screen name='Location' component={Location} />
