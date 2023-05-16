@@ -26,15 +26,15 @@ export default (theme) => ({
         position: 'absolute',
     },
     conatinerColumn: {
-        flex: 3,
-        flexDirection: 'row',
+        //adeacuar a la pantalla en columnas
+        flex: 1,
+        flexDirection: 'column',
         justifyContent: 'space-between',
         alignItems: 'center',
-        flexWrap: 'wrap',
-
-      
-       
-        
+        backgroundColor: 'transparent',
+        padding: 5,
+        width: '100%',
+        height: 'auto', 
     },
    
 });
