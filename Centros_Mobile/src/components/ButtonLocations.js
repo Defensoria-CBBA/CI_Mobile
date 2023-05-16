@@ -16,6 +16,7 @@ const ButtonLocations = () => {
            <View style={styles.containerButton}>
                <Button icon="map" text="sur" onPress={() => console.log('hola')} />
            </View>
+           
        </View>
     
    );
