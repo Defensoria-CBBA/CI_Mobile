@@ -4,7 +4,6 @@ export default (theme) => ({
         height: '130%',
         position: 'relative',
         top: '-20%',
-
         left: '-10%',
         zIndex: -1,
         backgroundColor: 'transparent',
@@ -14,7 +13,7 @@ export default (theme) => ({
         fontSize: 20,
         fontWeight: 'bold'
     },
-   
+
     container2: {
         backgroundColor: 'transparent',
         padding: 5,
@@ -29,6 +28,7 @@ export default (theme) => ({
 
         flex: 1,
         flexDirection: 'row',
+
         flexWrap: 'wrap',
         backgroundColor: 'transparent',
         padding: 5,
@@ -40,5 +40,11 @@ export default (theme) => ({
 
         justifyContent: 'center',
     },
-   
+    scroll: {
+        backgroundColor: 'transparent',
+        padding: 5,
+        height: '100%',
+    },
+
+
 });

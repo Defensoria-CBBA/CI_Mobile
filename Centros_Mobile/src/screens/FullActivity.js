@@ -29,13 +29,17 @@ export default function FullActivity() {
                 />
                 <View style={styles.conatinerColumn}>
                    
-
                         <MenuButtom image={imageUrl3} text="quieres somos" onPress={() => console.log('hola')} />
                         <MenuButtom image={imageUrl2} text="quieres somos" onPress={() => console.log('hola')} />
                         <MenuButtom image={imageUrl} text="quieres somos" onPress={() => console.log('hola')} />
                         <MenuButtom image={imageUrl3} text="quieres somos" onPress={() => console.log('hola')} />
                         <MenuButtom image={imageUrl2} text="quieres somos" onPress={() => console.log('hola')} />
-
+                        <MenuButtom image={imageUrl} text="quieres somos" onPress={() => console.log('hola')} />
+                        <MenuButtom image={imageUrl3} text="quieres somos" onPress={() => console.log('hola')} />
+                        <MenuButtom image={imageUrl2} text="quieres somos" onPress={() => console.log('hola')} />
+                        <MenuButtom image={imageUrl} text="quieres somos" onPress={() => console.log('hola')} />
+                        <MenuButtom image={imageUrl3} text="quieres somos" onPress={() => console.log('hola')} />
+                        
                  
                 </View>
 

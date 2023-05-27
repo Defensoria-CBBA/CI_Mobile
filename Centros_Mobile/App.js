@@ -1,7 +1,5 @@
 import * as React from 'react';
 import { createDrawerNavigator } from '@react-navigation/drawer';
-import { NavigationContainer } from '@react-navigation/native';
-import { View, StyleSheet } from "react-native";
 
 
 import SplashScreen from './src/components/SplashScreen';
@@ -17,8 +15,6 @@ export default function App() {
 
     </SplashScreen>
     
-
-
   );
 }
 
