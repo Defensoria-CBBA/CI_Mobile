@@ -8,7 +8,7 @@ export default (theme) => ({
         padding: 5,
         height: '100%',
     },
-    container2 : {
+    container2: {
         flex: 1,
         flexDirection: 'row',
         flexWrap: 'wrap',
@@ -18,8 +18,8 @@ export default (theme) => ({
         zIndex: 1,
         left: '0%',
         justifyContent: 'center',
+        alignItems: 'center',
     },
-
     button: {
         backgroundColor: 'rgb(138,228,223)',
         borderRadius: 10,
@@ -29,12 +29,11 @@ export default (theme) => ({
         marginHorizontal: 10,
         width: '90%',
         height: 'auto',
-        
+        justifyContent: 'center',
+        alignItems: 'center',
     },
     image: {
         width: 300,
         height: 300,
     },
-    
-
 });
