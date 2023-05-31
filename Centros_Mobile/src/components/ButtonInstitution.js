@@ -3,7 +3,7 @@ import { View, Text, StyleSheet } from "react-native";
 
 import MenuButton from "./MenuButton";
 
-const ButtonLocations = () => {
+const ButtonLocations = ({oringin, reclamos, activity}) => {
     const imageUrl = require('../../assets/ciberacoso.png');
     const imageUrl2 = require('../../assets/rutina.png');
     const imageUrl3 = require('../../assets/edificio.png');
@@ -11,13 +11,13 @@ const ButtonLocations = () => {
     return(
         <View style={{ flex: 1, flexDirection: 'row', }}>
             <View style={styles.containerButton}>
-                <MenuButton image={imageUrl3} text="quieres somos" onPress={() => console.log('hola')} />
+                <MenuButton image={imageUrl3} text="quieres somos" onPress={oringin} />
             </View>
             <View style={styles.containerButton}>
-                <MenuButton image={imageUrl} text="Desnuncias o Reclamos" onPress={() => console.log('hola')} />
+                <MenuButton image={imageUrl} text="Desnuncias o Reclamos" onPress={reclamos} />
             </View>
             <View style={styles.containerButton}>
-                <MenuButton image={imageUrl2} text="Todas  la actividades" onPress={() => console.log('hola')} />
+                <MenuButton image={imageUrl2} text="Todas  la actividades" onPress={activity} />
             </View>
         </View>
     );

@@ -1,13 +1,4 @@
 export default (theme) => ({
-    fond: {
-        width: '130%',
-        height: '130%',
-        position: 'relative',
-        top: '-20%',
-        left: '-10%',
-        zIndex: -1,
-        backgroundColor: 'transparent',
-    },
 
     title: {
         fontSize: 20,
@@ -40,11 +31,11 @@ export default (theme) => ({
 
         justifyContent: 'center',
     },
-    scroll: {
+     scroll: {
         backgroundColor: 'transparent',
         padding: 5,
         height: '100%',
     },
-
+   
 
 });

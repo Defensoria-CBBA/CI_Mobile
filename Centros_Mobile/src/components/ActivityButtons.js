@@ -6,13 +6,14 @@ const ASPECT_RATIO = width / height;
 
 
 
-const ActivityButtons = ({ image, text, onPress }) => {
+const ActivityButtons = ({ image, title, date, onPress }) => {
     return (
         <TouchableOpacity
             style={styles.button}
             onPress={onPress}>
             <Image source={image} style={{ width: 300, height: 300}} />
-            <Text style={styles.text}>{text}</Text>
+            <Text style={styles.text}>{title}</Text>
+            <Text>Fecha: {date}</Text>
 
         </TouchableOpacity>
     );
