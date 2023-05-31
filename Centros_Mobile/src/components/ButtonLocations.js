@@ -1,20 +1,18 @@
 import React from "react";
 import { View, Text, StyleSheet } from "react-native";
 import Button from "./Button";
-
-
-const ButtonLocations = () => {
+const ButtonLocations = ({norte, centro, sur}) => {
    return (
     
        <View style={{ flex: 1, flexDirection: 'row', }}>
            <View style={styles.containerButton}>
-               <Button icon="map" text="norte" onPress={() => console.log('hola')} />
+               <Button icon="map" text="norte" onPress={norte} />
            </View>
            <View style={styles.containerButton}>
-               <Button icon="map" text="centro" onPress={() => console.log('hola')} />
+               <Button icon="map" text="centro" onPress={centro} />
            </View>
            <View style={styles.containerButton}>
-               <Button icon="map" text="sur" onPress={() => console.log('hola')} />
+               <Button icon="map" text="sur" onPress={sur} />
            </View>
            
        </View>
@@ -34,3 +32,4 @@ const styles = StyleSheet.create({
 });
 
 export default ButtonLocations;
+

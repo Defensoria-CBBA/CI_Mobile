@@ -6,6 +6,7 @@ import { Ionicons } from '@expo/vector-icons';
 const MenuButtom = ({ image, text, onPress }) => {
     return (
         <TouchableOpacity
+
             style={styles.button}
             onPress={onPress}>
             <Image source={image} style={{ width: 60, height: 60 }} />
@@ -22,6 +23,7 @@ const styles = StyleSheet.create({
         alignItems: 'center',
         marginVertical: 10,
         marginHorizontal: 10,
+        alignSelf: 'stretch'
     },
     text: {
         color: 'black',
