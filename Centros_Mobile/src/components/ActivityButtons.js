@@ -1,16 +1,19 @@
 import React from 'react';
-import { TouchableOpacity, Text, StyleSheet, Image } from 'react-native';
-import { Ionicons } from '@expo/vector-icons';
+import { TouchableOpacity, Text, StyleSheet, Image, Dimensions } from 'react-native';
+
+const { width, height } = Dimensions.get('window');
+const ASPECT_RATIO = width / height;
 
 
-const MenuButtom = ({ image, text, onPress }) => {
+
+const ActivityButtons = ({ image, title, date, onPress }) => {
     return (
         <TouchableOpacity
-
             style={styles.button}
             onPress={onPress}>
-            <Image source={image} style={{ width: 60, height: 60 }} />
-            <Text style={styles.text}>{text}</Text>
+            <Image source={image} style={{ width: 300, height: 300}} />
+            <Text style={styles.text}>{title}</Text>
+            <Text>Fecha: {date}</Text>
 
         </TouchableOpacity>
     );
@@ -23,7 +26,8 @@ const styles = StyleSheet.create({
         alignItems: 'center',
         marginVertical: 10,
         marginHorizontal: 10,
-        alignSelf: 'stretch'
+        width: 'auto',	
+        height: 'auto',
     },
     text: {
         color: 'black',
@@ -32,7 +36,7 @@ const styles = StyleSheet.create({
         fontWeight: 'bold',
         //negrita
     },
-   
+
 
 });
-export default MenuButtom;
+export default ActivityButtons;

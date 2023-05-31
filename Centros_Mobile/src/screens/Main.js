@@ -10,7 +10,12 @@ import CarouselCards from "../components/CarouselCards";
 
 const NewMain = StyleSheet.create(UseMain);
 
-export default function Main() {
+export default function Main({ navigation }) {
+
+    const onPress = () => {navigation.navigate('Location')};
+    const onPress2 = () => {navigation.navigate('Activity')};
+    const onPress3 = () => {navigation.navigate('Claims')};
+    const onPress4 = () => {navigation.navigate('Origin')};
    
    const styles = NewMain();
    
@@ -37,17 +42,16 @@ export default function Main() {
                     <View style={styles.containercont}>
                         <Text style={styles.title}>Localidad Zonas </Text>
                     </View>
-                    <ButtonLocations />
-                    
+                        <ButtonLocations norte={onPress} centro={onPress} sur={onPress} /> 
                 </View>
                 <View>
                     <View style={styles.containercont}>
                         <Text style={styles.title}>Institucion </Text>
                     </View>
-                    <ButtonInstitution />
-                    
+                    <View>
+                        <ButtonInstitution oringin={onPress4} reclamos={onPress3} activity={onPress2}/>
+                    </View> 
                 </View>
-                
             </ScrollView>
         </LinearGradient>
        
