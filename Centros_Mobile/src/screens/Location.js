@@ -1,5 +1,5 @@
 import React from "react";
-import { View, Text, StyleSheet, ScrollView } from "react-native";
+import { View, Text, StyleSheet, ScrollView, TouchableOpacity } from "react-native";
 
 
 import ButtonLocations from "../components/ButtonLocations";
@@ -20,6 +20,7 @@ export default function Location({ navigation }) {
     const imageUrl3 = require('../../assets/edificio.png');
     const OnPress = () => {navigation.navigate('Location')};
     const OnPress2 = () => {navigation.navigate('DetailLocation')};
+
     
     /*useEffect(() => {
         async function loadLocation() {
@@ -29,6 +30,10 @@ export default function Location({ navigation }) {
         loadLocation()
     }, [])*/
 
+    const gobak = () => {
+        navigation.goBack()
+    }
+
     return (
         <LinearGradient style={{ height: '100%' }}
             colors={['rgb(202,241,192)', 'rgb(138,228,223)']}
@@ -36,8 +41,8 @@ export default function Location({ navigation }) {
             angle={45}
             angleCenter={{ x: 0.5, y: 0.5 }}
         >
+        
             <ScrollView style={styles.scroll}>
-
                 <View>
                     <Text style={styles.title}>
                         Zonas
