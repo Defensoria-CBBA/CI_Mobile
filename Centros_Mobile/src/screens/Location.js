@@ -20,7 +20,7 @@ export default function Location({ navigation }) {
     const imageUrl3 = require('../../assets/edificio.png');
     const OnPress = () => {navigation.navigate('Location')};
     const OnPress2 = () => {navigation.navigate('DetailLocation')};
-    
+    //
     /*useEffect(() => {
         async function loadLocation() {
             const response = await getLocation()
@@ -29,15 +29,18 @@ export default function Location({ navigation }) {
         loadLocation()
     }, [])*/
 
+
     return (
+        
         <LinearGradient style={{ height: '100%' }}
             colors={['rgb(202,241,192)', 'rgb(138,228,223)']}
             useAgule={true}
             angle={45}
             angleCenter={{ x: 0.5, y: 0.5 }}
         >
+            
             <ScrollView style={styles.scroll}>
-
+            
                 <View>
                     <Text style={styles.title}>
                         Zonas
