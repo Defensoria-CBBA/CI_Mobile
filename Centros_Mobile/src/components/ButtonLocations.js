@@ -21,6 +21,7 @@ const ButtonLocations = ({norte, centro, sur}) => {
 };
 
 const styles = StyleSheet.create({
+    //estilizado del los Buttons
     containerButton: {
         flex: 1,
         backgroundColor: 'transparent',
