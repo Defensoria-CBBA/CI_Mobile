@@ -11,12 +11,13 @@ const Button = ({icon, text, onPress}) => {
         onPress={onPress}>
             <Ionicons name={icon} size={40} color="black" />
             <Text style={styles.text}>{text}</Text>
-
+            
         </TouchableOpacity>
     );
 }
 const styles = StyleSheet.create({
-    button: {
+    // estilisado del boton
+    button: { 
         backgroundColor: 'white',
         borderRadius: 10,
         padding: 10,
@@ -24,15 +25,14 @@ const styles = StyleSheet.create({
         marginVertical: 10, 
         marginHorizontal: 10,
     },
+
+    //estilizado del texto
     text: {
         color: 'black',
         marginTop: 5,
         fontSize: 20,
         fontWeight: 'bold',
         //negrita
-
-
-
     },
 
 });
